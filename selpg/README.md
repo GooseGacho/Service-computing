@@ -102,7 +102,7 @@ input.txt里面是1到100行的内容分别为1到100的输入文件
 1. `$ selpg -s10 -e20 -l66 input_file`  
 ![](https://github.com/SHIKD-pu/Service-computing/blob/master/selpg/picture/21.PNG)  
 2. `$ selpg -s10 -e20 -f input_file`  
-![](https://github.com/SHIKD-pu/Service-computing/blob/master/selpg(/picture/22.PNG)  
+![](https://github.com/SHIKD-pu/Service-computing/blob/master/selpg/picture/22.PNG)  
 3. `$ selpg -s10 -e20 -dlp1 input_file`  
 ![](https://github.com/SHIKD-pu/Service-computing/blob/master/selpg/picture/23.PNG)  
 4. `$ selpg -s10 -e20 input_file > output_file 2>error_file &`  
