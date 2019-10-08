@@ -74,36 +74,36 @@ selpg [-s startPage] [-e endPage] [-l linePerPage | -f] [-d dest] input_file >ou
 input.txt里面是1到100行的内容分别为1到100的输入文件
 
 1. `$ selpg -s1 -e1 input_file`  
-![在这里插入图片描述](/picture/1-1.PNG)  
+![](https://github.com/SHIKD-pu/Service-computing/blob/master/selpg/picture/1-1.PNG)  
 一直到72  
-![在这里插入图片描述](/picture/1-3.PNG)  
+![](https://github.com/SHIKD-pu/Service-computing/blob/master/selpg/picture/1-3.PNG)  
 2. `$ selpg -s1 -e1 < input_file`  
-![在这里插入图片描述](/picture/2.PNG)  
+![](https://github.com/SHIKD-pu/Service-computing/blob/master/selpg/picture/2.PNG)  
 也是输出直到72，**后面的图片结果省略22到72的图片**  
 3. `$ other_command | selpg -s10 -e20`  
-![在这里插入图片描述](/picture/3.PNG)  
+![](https://github.com/SHIKD-pu/Service-computing/blob/master/selpg/picture/3.PNG)  
 4. `$ selpg -s10 -e20 input_file >output_file`  
-![在这里插入图片描述](/picture/4-1.PNG)  
-![在这里插入图片描述](/picture/4-2.PNG)  
+![](https://github.com/SHIKD-pu/Service-computing/blob/master/selpg/picture/4-1.PNG)  
+![](https://github.com/SHIKD-pu/Service-computing/blob/master/selpg/picture/4-2.PNG)  
 5. `$ selpg -s10 -e20 input_file 2>error_file`  
-![在这里插入图片描述](/picture/5-1.PNG)  
-![在这里插入图片描述](/picture/5-2.PNG)  
+![](https://github.com/SHIKD-pu/Service-computing/blob/master/selpg/picture/5-1.PNG)  
+![](https://github.com/SHIKD-pu/Service-computing/blob/master/selpg/picture/5-2.PNG)  
 6. `$ selpg -s10 -e20 input_file >output_file` 2>error_file  
-![在这里插入图片描述](/picture/6.PNG)  
+![](https://github.com/SHIKD-pu/Service-computing/blob/master/selpg/picture/6.PNG)  
 7. `$ selpg -s10 -e20 input_file >output_file` 2>/dev/null  
-![在这里插入图片描述](/picture/7.PNG)  
+![](https://github.com/SHIKD-pu/Service-computing/blob/master/selpg/picture/7.PNG)  
 8. `$ selpg -s10 -e20 input_file >/dev/null`  
-![在这里插入图片描述](/picture/8.PNG)  
+![](https://github.com/SHIKD-pu/Service-computing/blob/master/selpg/picture/8.PNG)  
 9. `$ selpg -s10 -e20 input_file | other_command`  
-![在这里插入图片描述](/picture/9.PNG)  
+![](https://github.com/SHIKD-pu/Service-computing/blob/master/selpg/picture/9.PNG)  
 10. `$ selpg -s10 -e20 input_file 2>error_file | other_command`  
-![在这里插入图片描述](/picture/10.PNG)  
+![](https://github.com/SHIKD-pu/Service-computing/blob/master/selpg/picture/10.PNG)  
 ---  
 1. `$ selpg -s10 -e20 -l66 input_file`  
-![在这里插入图片描述](/picture/21.PNG)  
+![](https://github.com/SHIKD-pu/Service-computing/blob/master/selpg/picture/21.PNG)  
 2. `$ selpg -s10 -e20 -f input_file`  
-![在这里插入图片描述](/picture/22.PNG)  
+![]https://github.com/SHIKD-pu/Service-computing/blob/master/selpg(/picture/22.PNG)  
 3. `$ selpg -s10 -e20 -dlp1 input_file`  
-![在这里插入图片描述](/picture/23.PNG)  
+![](https://github.com/SHIKD-pu/Service-computing/blob/master/selpg/picture/23.PNG)  
 4. `$ selpg -s10 -e20 input_file > output_file 2>error_file &`  
-![在这里插入图片描述](/picture/24.PNG)   
+![](https://github.com/SHIKD-pu/Service-computing/blob/master/selpg/picture/24.PNG)   
