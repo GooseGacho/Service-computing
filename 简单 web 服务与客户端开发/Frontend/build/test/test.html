@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>菜鸟教程(runoob.com)</title>
+</head>
+<body>
+    <h1>我的第一个标题</h1>
+    <p>我的第一个段落。</p>
+    <script src='../../src/js/Greeter.js'></script>
+    <script src='../../src/js/thrift.js'></script>
+    <script src='../../src/js/test2_types.js'></script>
+    <script>
+        
+              var transport = new Thrift.Transport('http://127.0.0.1:8001/rpc')
+              var protocol = new Thrift.Protocol(transport)
+              var client = new GreeterClient(protocol)
+              this.client = client
+              var user = new User()
+              user.id = 1
+              var res = client.Hello(user)
+              alert(res.id)
+        </script>
+</body>
+</html>
